@@ -1,0 +1,17 @@
+package basic;
+
+public class Datatypes {
+	public static void main(String[] args) {
+		
+		//Variable rules :
+		//we can not use keywrod as a variable name
+		
+		
+		int a = 10;
+		
+		
+		
+		
+		
+	}
+}
