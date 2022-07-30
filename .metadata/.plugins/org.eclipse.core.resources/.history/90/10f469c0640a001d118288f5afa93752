@@ -1,0 +1,15 @@
+package statements;
+
+public class S01_IfElse {
+			
+	
+		if(true)
+		{
+			System.out.println("True ");
+		}
+		else
+		{
+			System.out.println("False");
+		}
+	
+}

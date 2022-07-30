@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;array.FirstArray&apos; to &apos;A01_FirstArray&apos;&#x0D;&#x0A;- Original project: &apos;Learning_corejava&apos;&#x0D;&#x0A;- Original element: &apos;array.FirstArray&apos;&#x0D;&#x0A;- Renamed element: &apos;array.A01_FirstArray&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;FirstArray&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;array{FirstArray.java[FirstArray" matchStrategy="1" name="A01_FirstArray" qualified="false" references="true" similarDeclarations="false" stamp="1659171891202" textual="false" version="1.0"/>
+</session>
