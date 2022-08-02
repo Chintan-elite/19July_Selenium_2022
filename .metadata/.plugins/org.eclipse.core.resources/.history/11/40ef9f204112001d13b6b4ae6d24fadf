@@ -1,0 +1,19 @@
+package oops;
+
+class Pen
+{
+	String color = "Red";
+	String company = "Cello";
+	int price = 50;
+	
+	
+}
+
+public class O001_First {
+	public static void main(String[] args) {
+		
+		System.out.println("Program started...");
+		
+		
+	}
+}

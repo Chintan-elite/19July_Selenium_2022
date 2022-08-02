@@ -1,0 +1,10 @@
+package oops;
+
+public class O001_First {
+	public static void main(String[] args) {
+		
+		System.out.println("Program started...");
+		
+		
+	}
+}

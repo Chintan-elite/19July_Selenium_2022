@@ -1,0 +1,27 @@
+package oops;
+
+class Pen
+{
+	//data member or variables
+	String color = "Red";
+	String company = "Cello";
+	int price = 50;
+	
+	//function member or method
+	public void display()
+	{
+		System.out.println(color+" "+company+" "+price);
+	}
+	
+}
+
+public class O001_First {
+	public static void main(String[] args) {
+		
+		System.out.println("Program started...");
+		
+		//objec tof pen class
+		Pen p = new Pen();
+		p.display();
+	}
+}
