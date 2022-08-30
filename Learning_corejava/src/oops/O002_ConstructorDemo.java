@@ -2,8 +2,8 @@ package oops;
 
 class Student
 {
-//	int id;
-//	String name;
+	//	int id;
+	//	String name;
 	
 	Student()
 	{
@@ -24,12 +24,8 @@ class Student
 public class O002_ConstructorDemo {
 	public static void main(String[] args) {
 		
-		
 		Student st = new Student();
 		Student st1 = new Student(10);
 		Student st2 = new Student("tops");
-		
-		
-		
 	}
 }

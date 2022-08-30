@@ -1,5 +1,7 @@
 package oops;
 
+import modifier.Student;
+
 class Pen
 {
 	//data member or variables
@@ -35,5 +37,9 @@ public class O001_First {
 		p1.display();
 		
 		Pen.run();
+		
+		Student s = new Student();
+		s.id=60;
+		s.getData();
 	}
 }
