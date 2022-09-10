@@ -19,10 +19,29 @@ public class Logincheck {
 		
 		WebElement email =   driver.findElement(By.id("email"));
 		WebElement pass =   driver.findElement(By.id("pass"));
+		WebElement login = driver.findElement(By.name("login"));
 		
 		email.sendKeys("tops");
 		pass.sendKeys("abc123");
+		login.click();
 		
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		String title = driver.getTitle();
+		System.out.println(title);
+		if(title.equals("Log in to Facebook"))
+		{
+			System.out.println("Passed !!!!");
+		}
+		else
+		{
+			System.out.println("Failed !!!");
+		}
 		
 		
 	}
