@@ -13,6 +13,7 @@ public class Driverconnection {
 		String key = "webdriver.chrome.driver";
 		System.setProperty(key, driverPath);
 		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 		
 		return driver;
