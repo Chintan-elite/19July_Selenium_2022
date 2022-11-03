@@ -1,0 +1,4 @@
+14:33:43.954 [main] INFO  com.SecondTest - This is informaton message
+14:33:43.957 [main] DEBUG com.SecondTest - this is debug message
+14:33:43.957 [main] ERROR com.SecondTest - this is error message
+14:33:43.957 [main] FATAL com.SecondTest - this is error message
